@@ -1,0 +1,76 @@
+* {
+  border: 0;
+  padding: 0;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+  box-shadow: 0px 5px 8px -9px black;
+  background-color: #eff2f5;
+}
+.Header_left {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Header_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff2f5;
+  border-radius: 999px;
+  padding: 5px;
+  height: 30px;
+  margin-left: 10px;
+}
+.Header_search > input {
+  border: none;
+  outline-width: 0;
+  background-color: transparent;
+}
+.Header_mid {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.Header_option {
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  cursor: pointer;
+}
+.Header_option:hover {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  border-bottom: none;
+  padding: 0 35px;
+  cursor: pointer;
+}
+.Header_option > .MuiSvgIcon-root {
+  color: gray;
+}
+.Header_option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+.Header_option--active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+.Header__option--active:hover > .MuiSvgIcon-root {
+  border-bottom: 4px solid #2e81f4;
+}
+.Hearder_info {
+  display: flex;
+  align-items: center;
+}
+.Hearder_info > h4 {
+  padding: 5px;
+}
+.Header_right {
+  display: flex;
+}
